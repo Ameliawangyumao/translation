@@ -1,14 +1,16 @@
 
 []{#_bookmark56 .anchor}**CHAPTER 5**
 
-MODIFIED SOURCE AND BINARY DISTRIBUTION
+MODIFIED SOURCE AND BINARY DISTRIBUTION 修改后的源码和二进制包的分发
 
 In this chapter, we discuss the two core sections that define the
 rights and obligations for those who modify, improve, and/or
 redistribute GPL'd software. These sections, GPLv2 2--3, define the
-central core rights and requirements of GPLv2.
+central core rights and requirements of GPLv2.在本章中，我们将讨论和定义两个核心部分——
+修改、改进和/或重新发布GPL软件的人的权利和义务。在 GPLv2 2—3小节里面，定义了GPLv2的核心权利和要求
 
-## GPLv2 §2: Share and Share Alike
+## GPLv2 §2: Share and Share Alike 
+GPLv2 §2: 分享和以相同的方式共同分享
 
 For many, this is where the "magic" happens that defends software
 freedom upon redistribution. GPLv2 2 is the only place in GPLv2 that
@@ -20,11 +22,12 @@ Free as in freedom. To achieve that goal, GPLv2 2 first sets forth
 that the rights of redistribution of modified versions are the same as
 those for verbatim copying, as presented in GPLv2 1. Therefore, the
 details of charging money, keeping copyright notices intact, and other
-GPLv2 1 provisions are intact here as well. However, there are
-
-three additional requirements.
+GPLv2 1 provisions are intact here as well. However, there are three additional requirements.
+对于许多人来说，这就是捍卫软件重新分发自由的“魔法”发生的地方。GPLv2§2是GPLv2中唯一规定版权法修改控制的地方。如果用户发布了基于GPLv2程序的修改版本，他们必须遵守GPLv2§2的条款进行这些更改。因此，本节确保了GPL软件的主体，在它持续演进开发时，仍然是自由软件（依然保持自由软件定义中的自由）。
+为了实现这一目标，GPLv2§2首先规定，修改版本的再分发权利与逐字复制的权利相同，这在GPLv2§1中有所规定。因此，收费的细节，保持版权声明的完整，以及其他GPLv2§1条款在这里也是完整的。但是，还有三个额外的要求。
 
 ### The Simpler Parts of GPLv2 §2
+浓缩版 GPLv2 §2
 
 The first (GPLv2 2(a)) requires that modified files carry "prominent
 notices" explaining what changes were made and the date of such
@@ -39,7 +42,7 @@ historical context of the software version they use, so that they can
 make proper support choices. Finally, GPLv2 2(a) serves an academic
 purpose --- ensuring that future developers can use a diachronic
 approach to understand the software.
-
+第一个(GPLv2§2(a))要求修改的文件带有“显著声明”，注明所做的更改和此类更改的日期。本节没有规定标记更改的特定方法，也没有定义更改的过程。根本上，GPLv2§2(a)在寻求确保那些收到修改版本的人知道软件的更改历史。对于一些用户来说，知道他们使用的是程序的标准版本是很重要的，因为虽然使用fork有很多优点，但也有一些缺点。用户应该了解他们所使用的软件版本的历史背景，以便他们能够做出适当的支持选择。最后，GPLv2§2(a)服务于学术目的——确保未来的开发人员可以使用基于时间的演进方法来理解软件
 GPLv2 2(c), a relatively simple section, requires that any program
 which (before modification) "normally reads commands interactively
 when run" and displays or prints legal information also display all
