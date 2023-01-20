@@ -51,6 +51,7 @@ pointer to the license, even in modified versions. The requirement is
 relatively simple, and relates to an important policy goal of
 copyleft: downstream users should be informed of their rights. Its
 implications and details are straightforward and simple.
+GPLv2§2(c) 章节相对简单，此部分要求任何程序(在修改之前)“在运行时可以提供交互方式读取命令”并显示或打印相关法律条文的能力，同时也能显示所有版权声明、使用免责声明，即使在修改的版本里也可以显示修改标记和许可证声明。这个要求相对简单，并且和copyleft的一个重要策略目标相关:下游用户应该以简单和直接的方式被告知他们的权利。
 
 ### GPLv2 §2(b)
 
@@ -59,35 +60,40 @@ short lines embody the some of the essential legal details of "share
 and share alike". These 46 words are considered by some to be the most
 worthy of careful scrutiny because they can be a source of great
 confusion when not properly understood.
+同时，GPLv2§2(b)需要做仔细和深入广泛的研究。它的短短四行体现了“分享和以相同方式分享”的核心法律细节。这46个单词被一些人认为是最值得仔细研究的，因为如果不能正确理解它们，它们将会成为一切困惑的源头。
 
 In considering GPLv2 2(b), first note the qualifier: it *only* applies
 to derivative, combined and/or modified works that "you distribute or
 publish". Despite years of education efforts on this matter, many
 still believe that modifiers of GPL'd software *must* publish or
-otherwise share their changes. On the contrary, GPLv2 2(b) **does not
+otherwise s  不适用 hare their changes. On the contrary, GPLv2 2(b) **does not
 apply if** the changes are never distributed. Indeed, the freedom to
 make private, personal, unshared changes to software for personal use
 only should be protected and defended.[^1^](#_bookmark60)
+在考虑GPLv2§2(b)时，首先注意限定符:它仅适用于“您分发或发布”的衍生、组合和/或修改作品。尽管在这个问题上做了多年的普及和培训工作，许多人仍然认为GPL软件的修改者必须发布或以其他方式分享他们的更改。但恰恰相反，在GPLv2§2(b)中，如果修改从未分发或发布，这个规则并不适用。的确，仅为个人使用而对软件进行私人的、个人的、非共享的更改的自由应该得到保护和捍卫。
 
 Next, we again encounter the same matter that appears in GPLv2 *§*0,
 in the following text: "\...that in whole or part contains or is
 derived from the Program or any part thereof."
+接下来，我们再次遇到在GPLv2 *§*0中出现的相同问题，在以下文本中:“\…  是指 全部或部分包含或源于或部分源于本程序”
 
 Again, the GPL relies here on copyright law. If, under copyright law,
 the modified version "contains or is derived from" the GPL'd software,
 then the requirements of GPLv2 2(b) apply. The GPL invokes its control
 as a copyright license over the modification of the work in
 combination with its control over distribution of the work.
-
+同样，GPL依赖于并遵从版权法。根据版权法，如果修改后的版本“包含或源自”GPL软件，则适用GPLv2§2(b)的要求。GPL将结合其对作品分发的条件，控制对作品修改的版权许可。
 The final clause of GPLv2 2(b) describes what the licensee must do if
 she distributes or publishes a modified version of the work ---
 namely, the following:
 
 \[The work must\] be licensed as a whole at no charge to all third
 parties under the terms of this License.
+GPLv2§2(b)的最后一个条款描述了被许可人在分发或发布作品的修改版本时必须做的事情——即:根据本授权条款[该作品必须]作为一个整体免费授权给所有第三方。
 
 That is probably the most tightly-packed phrase in all of the GPL.
 Consider each subpart carefully.
+这可能是GPL所有章节中最紧凑的句子。仔细斟酌每一个单词。
 
 The work "as a whole" is what is to be licensed. This is an important
 point that GPLv2 2 spends an entire paragraph explaining; thus this
@@ -99,6 +105,7 @@ new changes. However, those changes are part and parcel to the
 original work distributed to the programmer under GPL. Thus, the
 license of the original work affects the license of the new whole
 combined and/or derivative work.
+作品“作为一个整体”就要被授权。这一点很重要，GPLv2§2用了一整段来解释;因此，这句话值得在这里进行长时间的讨论。当一个程序员修改一个软件程序时，她生成了新的受版权保护的材料——将思想的表达固定到电子文件存储的有形介质中。那个程序员确实是作品新变化部分的版权持有者。然而，这些更改是在GPL下分发给程序员的原始工作的一部分。因此，原作品的许可影响新的整体组合和/或衍生作品的许可。
 
 It is certainly possible to take an existing independent work (called
 ) and combine it with a GPL'd program (called ). The license of , when
@@ -107,6 +114,7 @@ prerogative of the copyright holder of . However, when is combined
 with , it produces a new work that is the combination of the two
 (called + ). The copyright of this combined work, + , is held by the
 original copyright holder of each of the two works.
+当然可以将一个现有的独立作品(称为I)与一个GPL程序(称为G)结合起来。当I作为一个单独的独立作品发布时，它的许可仍然是I的版权所有者的特权。然而，当I与G结合时，它产生了一个新的作品，这是两者的组合(称为G+I)。这个组合作品G+I的版权由这两个作品的原版权所有人持有。
 
 In this case, GPLv2 2 lays out the terms by which + may be distributed
 and copied. By default, under copyright law, the copyright holder of
@@ -123,6 +131,7 @@ provided the terms of the GPL are upheld, goes far above and beyond
 the permissions that one would get with a typical work not covered by
 a copyleft license. Thus, to say that this condition is any way
 unreasonable is simply ludicrous.
+在这种情况下，GPLv2§2列出了G+I可以被分发和复制的条款。默认情况下，根据版权法，《I》的版权所有者不被允许发行《G+I》;版权法禁止在没有G的版权所有者明确许可的情况下使用(想象一下，如果G是一个专利产品，它的版权所有者会允许你创建和发布G+I而不支付他们一大笔钱吗?)。但G的许可证，即GPL，规定了I的版权所有者创建和分发G+I的条件。GPL预先授予的创建和发布组合作品和/或衍生作品的许可，只要GPL的条款得到满足，将拥有一个非常规的许可，这个许可远远超出了一个不受copyleft许可覆盖的典型作品所获得的许可。因此，这中情况下，是不合理的是荒谬的。
 
 The GPL recognizes what is outside its scope. When a programmer's work
 is "separate and independent" from any GPL'd program code with which
@@ -130,6 +139,7 @@ it could be combined, then the obligations of copyleft do not extend
 to the work separately distributed. Thus, Far from attempting to
 extend copyleft beyond the scope of copyright, the licenses explicitly
 recognize.
+GPL承认其规定的范围边界。当一个程序员的作品与任何可以与之结合的GPL程序代码“分离和独立”时，copyleft的义务并不扩展到单独分发的作品。因此，GPL 许可清晰明确的承认，它远远没有试图将copyleft扩展到版权范围之外，
 
 Thus, GPL recognizes what is outside its scope. When a programmer's
 work is "separate and inde- pendent" from any GPL'd program code with
